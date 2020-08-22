@@ -1,0 +1,272 @@
+"C:\Program Files\Java\jdk1.8.0_251\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\lib\idea_rt.jar=3176:C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Study\Lagou\BigData\JavaSE_Mod2\out\production\JavaSE_Mod2" com.lagou.homework.TwoDimArray
+读取的数组如下：
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 2 1 1 1 1 1 1 1 1 1 1 1 1 3 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+
+从第一行到最后一行的计算结果为：
+16 19 16 16 16 16 16 16 16 16 16 16 16 16 16 16 
+从第一列到最后一列的计算结果为：
+16 17 16 16 16 16 16 16 16 16 16 16 16 16 18 16 
+从左上角到右下角累加和为：
+17
+从右上角到左下角累加和为：
+18
+
+Process finished with exit code 0
+
+"C:\Program Files\Java\jdk1.8.0_251\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\lib\idea_rt.jar=7914:C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Study\Lagou\BigData\JavaSE_Mod2\out\production\JavaSE_Mod2" com.lagou.homework.ChessGame
+初始化五子棋棋盘
+f 0 1 2 3 4 5 6 7 8 9 a b c d e f
+0 + + + + + + + + + + + + + + + +
+1 + + + + + + + + + + + + + + + +
+2 + + + + + + + + + + + + + + + +
+3 + + + + + + + + + + + + + + + +
+4 + + + + + + + + + + + + + + + +
+5 + + + + + + + + + + + + + + + +
+6 + + + + + + + + + + + + + + + +
+7 + + + + + + + + + + + + + + + +
+8 + + + + + + + + + + + + + + + +
+9 + + + + + + + + + + + + + + + +
+a + + + + + + + + + + + + + + + +
+b + + + + + + + + + + + + + + + +
+c + + + + + + + + + + + + + + + +
+d + + + + + + + + + + + + + + + +
+e + + + + + + + + + + + + + + + +
+f + + + + + + + + + + + + + + + +
+
+游戏开始，请黑白双方分别输入坐标，先输入横坐标，再输入纵坐标：
+
+黑方回合：
+8 8
+第 1 回合
+f 0 1 2 3 4 5 6 7 8 9 a b c d e f
+0 + + + + + + + + + + + + + + + +
+1 + + + + + + + + + + + + + + + +
+2 + + + + + + + + + + + + + + + +
+3 + + + + + + + + + + + + + + + +
+4 + + + + + + + + + + + + + + + +
+5 + + + + + + + + + + + + + + + +
+6 + + + + + + + + + + + + + + + +
+7 + + + + + + + + + + + + + + + +
+8 + + + + + + + + ◘ + + + + + + +
+9 + + + + + + + + + + + + + + + +
+a + + + + + + + + + + + + + + + +
+b + + + + + + + + + + + + + + + +
+c + + + + + + + + + + + + + + + +
+d + + + + + + + + + + + + + + + +
+e + + + + + + + + + + + + + + + +
+f + + + + + + + + + + + + + + + +
+
+Counter：1
+白方回合：
+7 8
+第 2 回合
+f 0 1 2 3 4 5 6 7 8 9 a b c d e f
+0 + + + + + + + + + + + + + + + +
+1 + + + + + + + + + + + + + + + +
+2 + + + + + + + + + + + + + + + +
+3 + + + + + + + + + + + + + + + +
+4 + + + + + + + + + + + + + + + +
+5 + + + + + + + + + + + + + + + +
+6 + + + + + + + + + + + + + + + +
+7 + + + + + + + + ░ + + + + + + +
+8 + + + + + + + + ◘ + + + + + + +
+9 + + + + + + + + + + + + + + + +
+a + + + + + + + + + + + + + + + +
+b + + + + + + + + + + + + + + + +
+c + + + + + + + + + + + + + + + +
+d + + + + + + + + + + + + + + + +
+e + + + + + + + + + + + + + + + +
+f + + + + + + + + + + + + + + + +
+
+Counter：1
+黑方回合：
+8 9
+第 3 回合
+f 0 1 2 3 4 5 6 7 8 9 a b c d e f
+0 + + + + + + + + + + + + + + + +
+1 + + + + + + + + + + + + + + + +
+2 + + + + + + + + + + + + + + + +
+3 + + + + + + + + + + + + + + + +
+4 + + + + + + + + + + + + + + + +
+5 + + + + + + + + + + + + + + + +
+6 + + + + + + + + + + + + + + + +
+7 + + + + + + + + ░ + + + + + + +
+8 + + + + + + + + ◘ ◘ + + + + + +
+9 + + + + + + + + + + + + + + + +
+a + + + + + + + + + + + + + + + +
+b + + + + + + + + + + + + + + + +
+c + + + + + + + + + + + + + + + +
+d + + + + + + + + + + + + + + + +
+e + + + + + + + + + + + + + + + +
+f + + + + + + + + + + + + + + + +
+
+Counter：1
+白方回合：
+7 9
+第 4 回合
+f 0 1 2 3 4 5 6 7 8 9 a b c d e f
+0 + + + + + + + + + + + + + + + +
+1 + + + + + + + + + + + + + + + +
+2 + + + + + + + + + + + + + + + +
+3 + + + + + + + + + + + + + + + +
+4 + + + + + + + + + + + + + + + +
+5 + + + + + + + + + + + + + + + +
+6 + + + + + + + + + + + + + + + +
+7 + + + + + + + + ░ ░ + + + + + +
+8 + + + + + + + + ◘ ◘ + + + + + +
+9 + + + + + + + + + + + + + + + +
+a + + + + + + + + + + + + + + + +
+b + + + + + + + + + + + + + + + +
+c + + + + + + + + + + + + + + + +
+d + + + + + + + + + + + + + + + +
+e + + + + + + + + + + + + + + + +
+f + + + + + + + + + + + + + + + +
+
+Counter：1
+黑方回合：
+8 10
+输入错误，请重新输入0到f之间的值：
+0 1 2 3 4 5 6 7 8 9 a b c d e f
+黑方回合：
+8 a
+第 5 回合
+f 0 1 2 3 4 5 6 7 8 9 a b c d e f
+0 + + + + + + + + + + + + + + + +
+1 + + + + + + + + + + + + + + + +
+2 + + + + + + + + + + + + + + + +
+3 + + + + + + + + + + + + + + + +
+4 + + + + + + + + + + + + + + + +
+5 + + + + + + + + + + + + + + + +
+6 + + + + + + + + + + + + + + + +
+7 + + + + + + + + ░ ░ + + + + + +
+8 + + + + + + + + ◘ ◘ ◘ + + + + +
+9 + + + + + + + + + + + + + + + +
+a + + + + + + + + + + + + + + + +
+b + + + + + + + + + + + + + + + +
+c + + + + + + + + + + + + + + + +
+d + + + + + + + + + + + + + + + +
+e + + + + + + + + + + + + + + + +
+f + + + + + + + + + + + + + + + +
+
+Counter：1
+白方回合：
+7 a
+第 6 回合
+f 0 1 2 3 4 5 6 7 8 9 a b c d e f
+0 + + + + + + + + + + + + + + + +
+1 + + + + + + + + + + + + + + + +
+2 + + + + + + + + + + + + + + + +
+3 + + + + + + + + + + + + + + + +
+4 + + + + + + + + + + + + + + + +
+5 + + + + + + + + + + + + + + + +
+6 + + + + + + + + + + + + + + + +
+7 + + + + + + + + ░ ░ ░ + + + + +
+8 + + + + + + + + ◘ ◘ ◘ + + + + +
+9 + + + + + + + + + + + + + + + +
+a + + + + + + + + + + + + + + + +
+b + + + + + + + + + + + + + + + +
+c + + + + + + + + + + + + + + + +
+d + + + + + + + + + + + + + + + +
+e + + + + + + + + + + + + + + + +
+f + + + + + + + + + + + + + + + +
+
+Counter：1
+黑方回合：
+8 b
+第 7 回合
+f 0 1 2 3 4 5 6 7 8 9 a b c d e f
+0 + + + + + + + + + + + + + + + +
+1 + + + + + + + + + + + + + + + +
+2 + + + + + + + + + + + + + + + +
+3 + + + + + + + + + + + + + + + +
+4 + + + + + + + + + + + + + + + +
+5 + + + + + + + + + + + + + + + +
+6 + + + + + + + + + + + + + + + +
+7 + + + + + + + + ░ ░ ░ + + + + +
+8 + + + + + + + + ◘ ◘ ◘ ◘ + + + +
+9 + + + + + + + + + + + + + + + +
+a + + + + + + + + + + + + + + + +
+b + + + + + + + + + + + + + + + +
+c + + + + + + + + + + + + + + + +
+d + + + + + + + + + + + + + + + +
+e + + + + + + + + + + + + + + + +
+f + + + + + + + + + + + + + + + +
+
+Counter：1
+白方回合：
+7 b
+第 8 回合
+f 0 1 2 3 4 5 6 7 8 9 a b c d e f
+0 + + + + + + + + + + + + + + + +
+1 + + + + + + + + + + + + + + + +
+2 + + + + + + + + + + + + + + + +
+3 + + + + + + + + + + + + + + + +
+4 + + + + + + + + + + + + + + + +
+5 + + + + + + + + + + + + + + + +
+6 + + + + + + + + + + + + + + + +
+7 + + + + + + + + ░ ░ ░ ░ + + + +
+8 + + + + + + + + ◘ ◘ ◘ ◘ + + + +
+9 + + + + + + + + + + + + + + + +
+a + + + + + + + + + + + + + + + +
+b + + + + + + + + + + + + + + + +
+c + + + + + + + + + + + + + + + +
+d + + + + + + + + + + + + + + + +
+e + + + + + + + + + + + + + + + +
+f + + + + + + + + + + + + + + + +
+
+Counter：1
+黑方回合：
+8 c
+第 9 回合
+f 0 1 2 3 4 5 6 7 8 9 a b c d e f
+0 + + + + + + + + + + + + + + + +
+1 + + + + + + + + + + + + + + + +
+2 + + + + + + + + + + + + + + + +
+3 + + + + + + + + + + + + + + + +
+4 + + + + + + + + + + + + + + + +
+5 + + + + + + + + + + + + + + + +
+6 + + + + + + + + + + + + + + + +
+7 + + + + + + + + ░ ░ ░ ░ + + + +
+8 + + + + + + + + ◘ ◘ ◘ ◘ ◘ + + +
+9 + + + + + + + + + + + + + + + +
+a + + + + + + + + + + + + + + + +
+b + + + + + + + + + + + + + + + +
+c + + + + + + + + + + + + + + + +
+d + + + + + + + + + + + + + + + +
+e + + + + + + + + + + + + + + + +
+f + + + + + + + + + + + + + + + +
+
+左右检查 Counter：5
+游戏开始，请黑白双方分别输入坐标，先输入横坐标，再输入纵坐标：
+祝贺黑方获胜
+游戏结束！
+
+Process finished with exit code 0
+"C:\Program Files\Java\jdk1.8.0_251\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\lib\idea_rt.jar=4102:C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Study\Lagou\BigData\JavaSE_Mod2\out\production\JavaSE_Mod2" com.lagou.homework.MyTest
+Jack Zhang的手机。手机号码为15011111111账户余额为：200
+通话套餐信息如下：
+剩余通话时长：60剩余短信条数：20每月资费：30
+上网套餐信息如下：
+剩余流量：500每月资费：20
+通话套餐信息如下：
+剩余通话时长：60剩余短信条数：20每月资费：30
+上网套餐信息如下：
+剩余流量：500每月资费：20
+
+Process finished with exit code 0
+
