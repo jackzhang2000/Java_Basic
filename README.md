@@ -80,3 +80,34 @@ Stack存放局部变量int num=2; arr2中存放数组地址信息
 Heap存放new关键字创建的变量 int[] arr2 = new int2[2]; 
 
 int[][] = new int[2][6] 2行6列 2个一维数组
+
+重载（overload）public class Overloading {
+    public int test(){
+        System.out.println("test1");
+        return 1;
+    }
+ 
+    public void test(int a){
+        System.out.println("test2");
+    }   
+ 
+    //以下两个参数类型顺序不同
+    public String test(int a,String s){
+        System.out.println("test3");
+        return "returntest3";
+    }   
+ 
+    public String test(String s,int a){
+        System.out.println("test4");
+        return "returntest4";
+    }   
+ 
+    public static void main(String[] args){
+        Overloading o = new Overloading();
+        System.out.println(o.test());
+        o.test(1);
+        System.out.println(o.test(1,"test3"));
+        System.out.println(o.test("test4",1));
+    }
+}重载方法满足的一些条件：（1）方法名相同。（2）方法的参数类型、个数、顺序至少有一项不同。（3）方法的返回值可以不同。（4）方法的修饰符可以不同。
+
